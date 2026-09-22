@@ -10,5 +10,4 @@ to install for different gpu edit the tarbal name in the file.
 auto download rockm10.0 (non python) into lmstudio backend 11(and 10) (1 click).
 
 to install for different gpu edit the tarbal name in the file.
-
-[https://raw.githubusercontent.com/scriptnapps/install_rocm_10.0_windows_amd/refs/heads/main/rockm_lmstudio_error.png]
+![Project Logo](https://raw.githubusercontent.com/scriptnapps/install_rocm_10.0_windows_amd/refs/heads/main/rockm_lmstudio_error.png "rockm error")
