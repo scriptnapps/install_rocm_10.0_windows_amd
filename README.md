@@ -32,3 +32,6 @@ Without the cpu driver bundled but is 1,6GB:
 [https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-9-1.html](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-9-1.html)
 
 [https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.9.1-win11-c.exe](https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.9.1-win11-c.exe)
+
+# comfyui portable fixxer
+[https://github.com/pedrodenovo/ComfyUI-ROCm-Windows-Native](https://github.com/pedrodenovo/ComfyUI-ROCm-Windows-Native)
