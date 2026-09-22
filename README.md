@@ -15,5 +15,8 @@ to install for different gpu edit the tarbal name in the file.
 # lama-cpp-ROCm-backend
 [llama-b11109-bin-win-rocm-10.0-x64.zip](https://github.com/ggml-org/llama.cpp/releases/download/b11109/llama-b11109-bin-win-rocm-10.0-x64.zip)
 
-# lama-cpp-Vulkan)-backend
+# lama-cpp-Vulkan-backend
 [llama-b11109-bin-win-vulkan-x64.zip](https://github.com/ggml-org/llama.cpp/releases/download/b11109/llama-b11109-bin-win-vulkan-x64.zip)
+
+# lama-cpp
+[https://github.com/ggml-org/llama.cpp/releases](https://github.com/ggml-org/llama.cpp/releases)
