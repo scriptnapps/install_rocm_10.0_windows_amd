@@ -20,3 +20,10 @@ to install for different gpu edit the tarbal name in the file.
 
 # lama-cpp all backend / server / cli
 [https://github.com/ggml-org/llama.cpp/releases](https://github.com/ggml-org/llama.cpp/releases)
+
+#amd driver with rockm (python) 
+this driver has the built in python 12.2 pytorch, lamacpp, lmstudo, rocm10.0(python)
+
+https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-9000-series/amd-radeon-rx-9070-xt.html
+
+https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-8-1.html
