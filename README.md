@@ -1,4 +1,4 @@
-# [install_rocm_10.0_windows_amd](https://raw.githubusercontent.com/scriptnapps/install_rocm_10.0_windows_amd/refs/heads/main/w11_ROCm_10.0.bat)
+# [Auto_install_rocm_10.0_windows_amd](https://raw.githubusercontent.com/scriptnapps/install_rocm_10.0_windows_amd/refs/heads/main/w11_ROCm_10.0.bat)
 
 auto install rocm10.0 (non python) into windows 11(and 10) (1 click).
 
