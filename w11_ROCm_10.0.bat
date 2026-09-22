@@ -76,7 +76,70 @@ for /f "skip=2 tokens=2,*" %%A in ('reg query "HKLM\SYSTEM\CurrentControlSet\Con
 echo !SYSPATH! | find /i "C:\TheRock\build\bin" >nul || setx PATH "!SYSPATH!;C:\TheRock\build\bin;C:\TheRock\build\lib\llvm\bin" /M
 
 set
-hipinfo
+
+
+setlocal enabledelayedexpansion
+
+echo -----------------------------
+echo -----------------------------
+echo -----------------------------
+
+echo All set, ROCm10.0 is installed
+
+echo -----------------------------
+echo -----------------------------
+echo -----------------------------
+
+
+setlocal enabledelayedexpansion
+
+echo ============================================
+echo   Detected GPU(s) via HIP / ROCm
+echo ============================================
+echo.
+
+REM --- Try to locate hipInfo.exe ---
+set "HIPINFO="
+
+REM 1. Check if hipInfo is already in PATH
+where hipInfo.exe >nul 2>&1
+if %errorlevel%==0 (
+    set "HIPINFO=hipInfo.exe"
+    goto :run
+)
+
+REM 2. Check common HIP SDK install locations
+for %%D in (
+    "C:\Program Files\AMD\ROCm"
+    "C:\Program Files\AMD\HIP"
+    "C:\HIP"
+) do (
+    if exist "%%~D" (
+        for /f "delims=" %%F in ('dir /b /s "%%~D\hipInfo.exe" 2^>nul') do (
+            set "HIPINFO=%%F"
+            goto :run
+        )
+    )
+)
+
+echo [!] hipInfo.exe was not found.
+echo     Please install the AMD HIP SDK or add hipInfo.exe to your PATH.
+echo.
+pause
+exit /b 1
+
+:run
+
+echo.
+echo --- Parsed GPU info ---
+echo.
+"!HIPINFO!" | findstr /I "Name gcnArch device --------------------------------------------------------------------------------"
+
+echo.
+pause
+endlocal
+
+pause 
 
 endlocal
 goto :eof
