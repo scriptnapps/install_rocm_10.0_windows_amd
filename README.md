@@ -1,0 +1,1 @@
+# install_rocm_10.0_windows_amd
