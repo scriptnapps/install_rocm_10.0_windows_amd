@@ -11,3 +11,9 @@ auto download rockm10.0 (non python) into lmstudio backend 11(and 10) (1 click).
 
 to install for different gpu edit the tarbal name in the file.
 ![Project Logo](https://raw.githubusercontent.com/scriptnapps/install_rocm_10.0_windows_amd/refs/heads/main/rockm_lmstudio_error.png "rockm error")
+
+# lama-cpp-ROCm-backend
+[llama-b11109-bin-win-rocm-10.0-x64.zip](https://github.com/ggml-org/llama.cpp/releases/download/b11109/llama-b11109-bin-win-rocm-10.0-x64.zip)
+
+# lama-cpp-Vulkan)-backend
+[llama-b11109-bin-win-vulkan-x64.zip](https://github.com/ggml-org/llama.cpp/releases/download/b11109/llama-b11109-bin-win-vulkan-x64.zip)
