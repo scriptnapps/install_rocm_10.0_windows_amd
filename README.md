@@ -26,5 +26,8 @@ this driver has the built in python 12.2 pytorch, lamacpp, lmstudo, rocm10.0(pyt
 
 [https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-9000-series/amd-radeon-rx-9070-xt.html](https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-9000-series/amd-radeon-rx-9070-xt.html) choose the newest !
 
-Without the cpu driver bundled:
+
+Without the cpu driver bundled but is 1,6GB:
 [https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-9-1.html](https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-9-1.html)
+
+[https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.9.1-win11-c.exe](https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.9.1-win11-c.exe)
