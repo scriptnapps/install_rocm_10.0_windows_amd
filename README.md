@@ -13,10 +13,10 @@ to install for different gpu edit the tarbal name in the file.
 ![Project Logo](https://raw.githubusercontent.com/scriptnapps/install_rocm_10.0_windows_amd/refs/heads/main/rockm_lmstudio_error.png "rockm error")
 
 # lama-cpp-ROCm-backend
-[llama-b11109-bin-win-rocm-10.0-x64.zip](https://github.com/ggml-org/llama.cpp/releases/download/b11109/llama-b11109-bin-win-rocm-10.0-x64.zip)
+[https://github.com/ggml-org/llama.cpp/releases/download/b11172/llama-b11172-bin-win-rocm-10.0-x64.zip](https://github.com/ggml-org/llama.cpp/releases/download/b11172/llama-b11172-bin-win-rocm-10.0-x64.zip)
 
 # lama-cpp-Vulkan-backend
-[llama-b11109-bin-win-vulkan-x64.zip](https://github.com/ggml-org/llama.cpp/releases/download/b11109/llama-b11109-bin-win-vulkan-x64.zip)
+[https://github.com/ggml-org/llama.cpp/releases/download/b11172/llama-b11172-bin-win-vulkan-x64.zip](https://github.com/ggml-org/llama.cpp/releases/download/b11172/llama-b11172-bin-win-vulkan-x64.zip)
 
 # lama-cpp all backend / server / cli
 [https://github.com/ggml-org/llama.cpp/releases](https://github.com/ggml-org/llama.cpp/releases)
